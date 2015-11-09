@@ -17,13 +17,13 @@ Figuring out how the input from the sensor relates to the output in the LED’s.
 
 
 ##**Project Timeline**
-1.*WEEK 1* : Determining the configuration of LED’s and building glove/remote
+* *WEEK 1* : Determining the configuration of LED’s and building glove/remote
 
-2.*WEEK 2*: Working on coding to link LED’s and glove to Arduino
+* *WEEK 2*: Working on coding to link LED’s and glove to Arduino
 
-3.*WEEK 3*: Working on coding to go from input to output
+* *WEEK 3*: Working on coding to go from input to output
 
-4.*WEEK 4*: Working on coding to go from input to output
+* *WEEK 4*: Working on coding to go from input to output
 
-5.*WEEK 5*: Setup
+* *WEEK 5*: Setup
 
