@@ -1,9 +1,9 @@
-Materials Required
+#Materials Required#
 
-### LED'S ### 
+### LED'S 
 A whole bunch of LED's to build a setup to then further manipulate. 
 
-*Source: *
+*Source:*
 
 - http://www.amazon.com/Waterproof-Flexible-300leds-600leds-Changing/dp/B00XQQTLJG/ref=sr_1_1?ie=UTF8&qid=1447707783&sr=8-1-spons&keywords=rgb+led+strip&psc=1
 
@@ -11,22 +11,22 @@ A whole bunch of LED's to build a setup to then further manipulate.
 
 - **http://www.adafruit.com/products/1138**
 
-### Flex Sensors ###
+### Flex Sensors 
 Flex Sensors will be in the glove that will help me control the LED's.
 
-*Source: *
+*Source:*
 
 - Hybrid Lab
 
 
-### Glove ###
+### Glove 
 The basic 'remote' that the user wears to control the LED'S.
 
 *Source:*
 
 - I own one already!
 
-### RF Transmitter ### 
+### RF Transmitter 
 
 *Source:*
 
