@@ -1,6 +1,6 @@
 #DEBUG LOG#
 
-#####1. Connecting *flex sensors* to the input.#####
+##### Connecting *flex sensors* to the input#####
 
  i. Using analog pins, I wanted to get the input from the flex sensor on the serial monitor.
  
@@ -12,3 +12,16 @@
  
  v. My hypothesis is correct. I need a variable to store the value of analogRead and print that variable. 
  
+
+
+##### Manipulating LED's based on the input from the sensor#####
+
+ i. Lights change as the sensor is flexed differently.
+ 
+ ii. The value from the sensor is not very accurate or in fact the sensor does not change value until totally flexed.
+ 
+ iii. Something could be wrong with the sensor. 
+ 
+ iv. Can the sensor be made more sensitive, or the circuit be made more sensitive to the input from the sensor.
+ 
+ v. Don't know yet. I could change the values in the if statement to o according to the values in the sensor resolve this, but that would be very limited and inappropriate.
