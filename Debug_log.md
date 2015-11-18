@@ -25,3 +25,24 @@
  iv. Can the sensor be made more sensitive, or the circuit be made more sensitive to the input from the sensor.
  
  v. Don't know yet. I could change the values in the if statement to o according to the values in the sensor resolve this, but that would be very limited and inappropriate.
+
+####Controlling blinking####
+
+i. The lights blink when the fist is completely closed, i.e sensor value 240 or lower.
+
+ii. The blinking threshold is set to be 240(sensorValue). But once it reaches this threshold and the lights blink, it does not return back to the normal manipulation, it only keeps blinking.
+
+iii. The code keeps running at the same sensor value.
+
+iv. Use blink without delay. Setting an interval will be better!
+
+
+
+
+#### Controlling brightness####
+
+i. Trying to fade the lights out as I flex my finger.
+
+ii. In my setup, three LED's are connected, and with my code, two of them respond but the third one does not. it turns on and off but does not respond to brightness change/analogWrite.
+
+iii. 
