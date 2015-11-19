@@ -1,6 +1,6 @@
 #DEBUG LOG#
 
-##### Connecting *flex sensors* to the input#####
+##### Connecting *flex sensors* to the input
 
  i. Using analog pins, I wanted to get the input from the flex sensor on the serial monitor.
  
@@ -14,7 +14,7 @@
  
 
 
-##### Manipulating LED's based on the input from the sensor#####
+##### Manipulating LED's based on the input from the sensor
 
  i. Lights change as the sensor is flexed differently.
  
@@ -26,7 +26,7 @@
  
  v. Don't know yet. I could change the values in the if statement to o according to the values in the sensor resolve this, but that would be very limited and inappropriate.
 
-####Controlling blinking####
+####Controlling blinking
 
 i. The lights blink when the fist is completely closed, i.e sensor value 240 or lower.
 
@@ -45,4 +45,20 @@ i. Trying to fade the lights out as I flex my finger.
 
 ii. In my setup, three LED's are connected, and with my code, two of them respond but the third one does not. it turns on and off but does not respond to brightness change/analogWrite.
 
-iii. 
+iii. Something wrong with the circuit?
+
+v. My hypotheses was correct, the second LED was connected to a digital pin and hence could turn on or off but not not change brightness with analogWrite.
+
+
+####Using blink without delay
+
+i. Trying to get the LED's to blink without using delay()
+
+ii. The LED's are checked for the interval only once, and are only barely visible as real blinking.
+
+iii. The interval should be checked twice, both before an after the LED turns on. 
+
+iv.
+
+v. 
+
