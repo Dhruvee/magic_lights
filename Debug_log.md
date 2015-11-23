@@ -58,19 +58,12 @@ ii. The LED's are checked for the interval only once, and are only barely visibl
 
 iii. The interval should be checked twice, both before an after the LED turns on. 
 
-iv.
-
-v. 
 
 
 ####Using RGB LED and manipulating color
 i. Trying to set the color for the LED
 
-ii. On using value 255 for red and 0 for the other two, the LED does not light up.
+ii. On every value of brightness for the RGB, only green works. And, the light also blinks. 
 
-iii.
-
-iv.
-
-v.
+v. The LED was defected.
 
