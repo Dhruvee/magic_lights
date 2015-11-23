@@ -62,3 +62,15 @@ iv.
 
 v. 
 
+
+####Using RGB LED and manipulating color
+i. Trying to set the color for the LED
+
+ii. On using value 255 for red and 0 for the other two, the LED does not light up.
+
+iii.
+
+iv.
+
+v.
+
