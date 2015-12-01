@@ -79,5 +79,27 @@ iii. some sort of interval setting might be required for fading
 
 iv. testing out fader program from adafruit
 
-v. interval setting is required.
+v. fader program does not change all LED's, instead works on fading the color from one LED onto another.
+
+#### Smooth color gradient
+i. Trying to smoothly transition from one color to the other based on inout from sensor.
+
+ii. There are color changes but very sudden.
+
+iii. I have a bunch of if statements, with a for loop in each, so many for loops probably cause redundancy and cause the program to slow down between changes.
+
+iv. Not using if statements, rather just using the value of input from sensor will cause a smooth gradient. Using map function to convert inout data from 0-1023 to 0-255 and then feeding into RGB.
+
+v. Yes, making a seperate function that relies on sensor value for its R G B values makes a smooth transition.
+
+#### Determining RGB values in relation to the sensor
+i. Trying to put values of R,G and B for rainbow color depending on the input from sensor.
+
+ii. There is a gradient, but not the whole spectrum. Only from red to blue with purple and pink in transition.
+
+iii. The colors need to be adjusted in a better way, some trick or relation between sensor value and RGB values.
+
+iv. Identify rainbow colors and see if there is a relation between the RGB values.
+
+v.
 
