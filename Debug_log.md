@@ -90,7 +90,9 @@ iii. I have a bunch of if statements, with a for loop in each, so many for loops
 
 iv. Not using if statements, rather just using the value of input from sensor will cause a smooth gradient. Using map function to convert inout data from 0-1023 to 0-255 and then feeding into RGB.
 
-v. Yes, making a seperate function that relies on sensor value for its R G B values makes a smooth transition.
+v. Yes, making a seperate function that relies on sensor value for its R G B values makes a smooth transition. But it still does not give desired range of colors.
+
+
 
 #### Determining RGB values in relation to the sensor
 i. Trying to put values of R,G and B for rainbow color depending on the input from sensor.
@@ -102,4 +104,15 @@ iii. The colors need to be adjusted in a better way, some trick or relation betw
 iv. Identify rainbow colors and see if there is a relation between the RGB values.
 
 v.
+
+####Smooth Color Gradient 2
+i. Getting a smooth color gradient.
+
+ii. On using if statements and setting up intervals, the color transition wasn't smooth
+
+iii. There must be something with the intervals of the if statement.
+
+iv. Make intervals overlap
+
+v. It helps for smoother transition. Having further more if statements will help more. 
 
