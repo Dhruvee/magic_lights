@@ -67,3 +67,17 @@ ii. On every value of brightness for the RGB, only green works. And, the light a
 
 v. The LED was defected.
 
+#### Connecting NeoPixel to arduino and DC Supply
+
+
+#### Control color change
+i. Trying to fade out the LED'S with change in flex (essence of project), but there isn't a smooth gradient change.
+
+ii. Need smaller intervals in 'for' loop, and something to fade other color before new color comes.
+
+iii. some sort of interval setting might be required for fading
+
+iv. testing out fader program from adafruit
+
+v. interval setting is required.
+
