@@ -112,7 +112,44 @@ ii. On using if statements and setting up intervals, the color transition wasn't
 
 iii. There must be something with the intervals of the if statement.
 
-iv. Make intervals overlap
+iv. Make intervals overlap.
 
 v. It helps for smoother transition. Having further more if statements will help more. 
+
+####Connecting RF Transmitter
+i. Using transmission between 2 arduino's to make the project work.
+
+ii. The transmitter/reciever both do not send/receive any information even with the example code.
+
+iii. Some circuit problem? 
+
+iv. Make transmission better/ stronger.Antenna?
+
+v. Yes, the antenna boosts the transmission and makes it work.
+
+####Sending information from tranmitter to reveiver
+i.Sending both values of input(from sensors) from transmitter to the reciever at once and seperating them.
+
+ii. In the example code, a wait function is used to send the file and wait until its completely sent. If I do this for both of the inputs, there will be a delay in information that may cause my output to be different from what I expect.
+
+iii. Sending them together. Array?
+
+iv. Using a buffer with three entries to send to reciever. 
+
+v. Yes, it works and accessing it just like an array in the receiver section should work.
+
+#### Using values for programming in receiver end.
+i. Trying to put the value of buf[0]/buf[3] into another variable that is used to run all the codes.
+
+ii. The code doesn't do anything.
+
+iii. Maybe the receiver is not receiving the information?
+
+iv. Use debug to check. 
+
+v. It is receiving information. My hypothesis was wrong. 
+   It doesn't work because of the statement buf[o]=sensorvalue; which puts the value of buf into sensorvalue, which is not     anything yet. The order of the terms on either side of the '=' needs to be reversed for this to work.
+
+
+
 
