@@ -1,7 +1,7 @@
 #include <VirtualWire.h>
 int sensorPin1 = A0; //color//
 int sensorPin2 = A1; //brightness//
-int transmit_pin=12;
+int transmit_pin = 12;
 float color;
 float brightness;
 void setup() {
