@@ -137,8 +137,8 @@ void loop() {
     bright = (255 - buf[2]);
 
     for (int i = 0; i < 240; i++) {
-      strip.setBrightness(100);
+      strip.setBrightness(bright);
       strip.show();
     }
   }
-}
+
