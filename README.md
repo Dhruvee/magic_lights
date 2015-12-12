@@ -24,4 +24,8 @@ Getting the right color for the LED's.
 * *WEEK 4*: Working on coding to go from input to output
 
 * *WEEK 5*: Setup
+* 
+
+###**Documentation**
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
 
