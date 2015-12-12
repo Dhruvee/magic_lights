@@ -27,5 +27,4 @@ Getting the right color for the LED's.
 * 
 
 ###**Documentation**
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
-
+https://youtu.be/Ng2ld8sJ1bM
